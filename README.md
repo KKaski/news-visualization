@@ -1,5 +1,5 @@
 # news-visualization
-Watson Discovery News Visualization
+Watson Discovery etwork research data Visualization
 
 A [D3.js](https://d3js.org/) visualization using the pre-enriched news content avaialable as part of the [Watson Discovery Service](https://www.ibm.com/watson/developercloud/discovery.html)
 
@@ -7,6 +7,7 @@ To get started, provision an instance of Discovery on [Bluemix](https://console.
 
 Clone this repo and navigate to the news-visualization directory:
 ```
+This code is orginated from the zwalchuck
 git clone https://github.com/zwalchuk/news-visualization.git
 cd news-visualization
 ```
@@ -19,6 +20,6 @@ export COLLECTION_ID = '<collection_id>'
 ```
 Launch the app:
 ```
-python newsApp.py
+python networkApp.py
 ```
 

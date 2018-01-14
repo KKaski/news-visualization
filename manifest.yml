@@ -1,0 +1,11 @@
+---
+applications:
+ - name: networkApp
+   random-route: false
+   memory: 128M
+   domain: mybluemix.net
+   name: networkApp
+   host: NetworkApp
+   disk_quota: 1024M
+   buildpack: python_buildpack
+   command: python networkApp.py
